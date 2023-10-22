@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap Website</title>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> <!--This for linking the file in this case is bootstrap.css-->
+   </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--I created a navbar which has a color dark for it.-->
+        <a class="navbar-brand" href="index.html">My Website</a> <!--This is  name for the navbar-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <!-- This  will create the toggle for  collapse or expanding based on the screen size -->
+            <span class="navbar-toggler-icon"></span> <!--This will make three dot icon when its collapsed  -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"> <!-- This will show the item in navbar and we can select one of the item or link  by unordered list . -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home </a> <!--This is the link for the item  in navbar-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a> <!--This is the link for the item  in navbar-->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-4"> <!--This for spacing the element-->
+        <h1>Welcome to My Bootstrap Website</h1>
+        <div class="row">
+            <div class="col-md-6"> <!--This will take half the available space on medium-sized screens-->
+                <h2>About Us</h2>
+                <p> We have  amazing brands .</p>
+            </div>
+            <div class="col-md-6"> <!--This will take half the available space on medium-sized screens with using container-->
+                <h2>Services</h2>
+                <p>We offer a wide range of watches that you are  interested . Contact us for more information.</p>
+            </div>
+        </div>
+    </div>
+     <div class="container mt-4"> <!---->
+        <h2>Our Collections of Watches</h2> <!--I have created table using bootstrap -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col"># </th>
+                    <th scope="col">Watch Brand </th>
+                    <th scope="col">Price  </th>
+                    <th scope="col">Quantity </th>
+                </tr>
+                    <tbody>
+                    </thead>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Rolex</td>
+                            <td>$10.863.00</td>
+                            <td>10</td>
+                            </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Zodiac</td>
+                            <td>$1,895.00</td>
+                            <td>20</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>G-Shock</td>
+                            <td>$150.00</td>
+                            <td>15</td>
+                            </tr>
+                    </tbody>
+                    </table>
+              </div>
+  <script src="node_modules/jquery/dist/jquery.js"></script> <!--included jquery because it will be need for some boostrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> <!--Also included bootstrap bundle.js-->
+</body>
+</html>
+
+
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
